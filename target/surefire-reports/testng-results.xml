@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24" started-at="2021-08-20T10:26:57Z" finished-at="2021-08-20T10:26:57Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="Selenium_Test.elementsUI()[pri:0, instance:SushantPracticeProject.Selenium_Test@37574691]" name="elementsUI" class="SushantPracticeProject.Selenium_Test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="24" started-at="2021-08-20T10:26:57Z" finished-at="2021-08-20T10:26:57Z">
+      <class name="SushantPracticeProject.Appium_Test">
+        <test-method status="PASS" signature="IOSApps()[pri:0, instance:SushantPracticeProject.Appium_Test@6a79c292]" name="IOSApps" duration-ms="4" started-at="2021-08-20T10:26:57Z" finished-at="2021-08-20T10:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+        <test-method status="PASS" signature="NativeAndroid()[pri:0, instance:SushantPracticeProject.Appium_Test@6a79c292]" name="NativeAndroid" duration-ms="0" started-at="2021-08-20T10:26:57Z" finished-at="2021-08-20T10:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeAndroid -->
+      </class> <!-- SushantPracticeProject.Appium_Test -->
+      <class name="SushantPracticeProject.Selenium_Test">
+        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:SushantPracticeProject.Selenium_Test@37574691]" name="BrowserAutomation" duration-ms="0" started-at="2021-08-20T10:26:57Z" finished-at="2021-08-20T10:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method status="PASS" signature="elementsUI()[pri:0, instance:SushantPracticeProject.Selenium_Test@37574691]" name="elementsUI" duration-ms="0" started-at="2021-08-20T10:26:57Z" finished-at="2021-08-20T10:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+      </class> <!-- SushantPracticeProject.Selenium_Test -->
+      <class name="SushantPracticeProject.RestAPI_Test">
+        <test-method status="PASS" signature="postjira()[pri:0, instance:SushantPracticeProject.RestAPI_Test@25359ed8]" name="postjira" duration-ms="0" started-at="2021-08-20T10:26:57Z" finished-at="2021-08-20T10:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postjira -->
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:SushantPracticeProject.RestAPI_Test@25359ed8]" name="deleteTwitter" duration-ms="0" started-at="2021-08-20T10:26:57Z" finished-at="2021-08-20T10:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+      </class> <!-- SushantPracticeProject.RestAPI_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
